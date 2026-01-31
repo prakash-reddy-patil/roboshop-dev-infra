@@ -2,8 +2,8 @@
 
 # component=$1
 # environment=$2
-# dnf install ansible -y
-#ansible-pull -U https://github.com/daws-86s/ansible-roboshop-roles-tf.git -e component=$component main.yaml
+ dnf install ansible -y
+ansible-pull -U https://https://github.com/prakash-reddy-patil/ansible-roboshop-roles-tf.git -e component=mongodb main.yaml    # $component main.yaml
 # git clone ansible-playbook
 # cd ansible-playbook
 # ansible-playbook -i inventory main.yaml
