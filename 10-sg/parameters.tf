@@ -5,4 +5,3 @@ resource "aws_ssm_parameter" "sg_id" {
   value = module.sg[count.index].sg_id
 }
 
-
